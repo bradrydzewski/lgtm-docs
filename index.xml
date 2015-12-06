@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LGTM</title>
+    <link>http://docs.lgtm.co/</link>
+    <description>Recent content on LGTM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2015 16:00:21 -0800</lastBuildDate>
+    <atom:link href="http://docs.lgtm.co/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setup Approvers</title>
+      <link>http://docs.lgtm.co/approvers/</link>
+      <pubDate>Sat, 05 Dec 2015 16:00:21 -0800</pubDate>
+      
+      <guid>http://docs.lgtm.co/approvers/</guid>
+      <description>&lt;p&gt;The list of approvers is stored in a &lt;code&gt;MAINTAINERS&lt;/code&gt; text file in the root
+of your repository. There are multiple supported file formats to choose from.&lt;/p&gt;
+
+&lt;p&gt;Username, separated by newline:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bradrydzewski
+matthewnorris
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Username and email address, separated by newline:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bradrydzewski &amp;lt;brad.rydzewski@mail.com&amp;gt;
+matthewnorris &amp;lt;matthew.norris@mail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;FullName, email address and username, separated by newline:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Brad Rydzewski &amp;lt;brad.rydzewski@mail.com&amp;gt; (@bradrydzewski)
+Matthew Norris &amp;lt;matthew.norris@mail.com&amp;gt; (@mattnorris)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Toml format inspired by the &lt;a href=&#34;https://github.com/docker/opensource/blob/master/MAINTAINERS&#34;&gt;Docker project&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[people]
+    [people.bradrydzewski]
+        Name = &amp;quot;Brad Rydzewski&amp;quot;
+        Email = &amp;quot;brad.rydzewski@mail.com&amp;quot;
+        Login = &amp;quot;bradrydzewski&amp;quot;
+
+    [people.mattnorris]
+        Name = &amp;quot;Matt Norris&amp;quot;
+        Email = &amp;quot;matt.norris@mail.com&amp;quot;
+        Login = &amp;quot;mattnorris&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setup Branches</title>
+      <link>http://docs.lgtm.co/branches/</link>
+      <pubDate>Sat, 05 Dec 2015 16:00:21 -0800</pubDate>
+      
+      <guid>http://docs.lgtm.co/branches/</guid>
+      <description>&lt;p&gt;Use this service with GitHub protected branches in order to prevent merging
+pull requests that have not received approval from your maintainers.&lt;/p&gt;
+
+&lt;p&gt;Navigate to your repository settings in GitHub to enable protected branches:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://docs.lgtm.co/images/protected_branches.png&#34; alt=&#34;protected branches&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Submit Approvals</title>
+      <link>http://docs.lgtm.co/approvals/</link>
+      <pubDate>Sat, 05 Dec 2015 16:00:21 -0800</pubDate>
+      
+      <guid>http://docs.lgtm.co/approvals/</guid>
+      <description>&lt;p&gt;In order to approve a pull request a maintainer should add a comment that
+includes &lt;strong&gt;LGTM&lt;/strong&gt;, which stands for &lt;em&gt;looks good to me&lt;/em&gt;. When &lt;strong&gt;two approvals&lt;/strong&gt;
+are received the branch is unlocked and can be merged.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://docs.lgtm.co/images/approval_complete.png&#34; alt=&#34;approval complete&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
